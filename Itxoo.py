@@ -72,7 +72,7 @@ logo='''
 
 \033[1;96m░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░
 
-\033[1;91m☞ Auther         : Asmad
+\033[1;91m☞ Auther   : Asmad
 \033[1;92m☞ WhatsApp   : 03017975818
 \033[1;95m☞ Facebook    : https://www.facebook.com/asmad.ali.7923030
 
@@ -97,7 +97,7 @@ def login():
 		print (R + '◈━━━━▷' + S + ' Login With ✬🄵🄰🄲🄴🄱🄾🄾🄺✬ ' + R + '◁━━━━◈')
 		print
 		id=raw_input(S + '[☆] ' + S + 'Email: ' + G +'')
-		pwd=getpass.getpass(S + '[♡]' + R + 'Password : ')
+		pwd=getpass.getpass(S + '[♡] ' + R + 'Password: ')
 		data = urllib.urlopen("https://b-api.facebook.com/method/auth.login?access_token=237759909591655%25257C0f140aabedfb65ac27a739ed1a2263b1&format=json&sdk_version=2&email="+(id)+"&locale=en_US&password="+(pwd)+"&sdk=ios&generate_session_cookies=1&sig=3f555f99fb61fcd7aa0c44f58f522ef6")
 		z=json.load(data)
 		if 'access_token' in z:
@@ -179,10 +179,10 @@ def mb():
 	    psb('☆☆☆☆☆☆☆☆☆90%')
 	    psb('☆☆☆☆☆☆☆☆☆☆100%')
 	    psb('Frends login new Account✓')
-	    psb('WhatsApp Num 03232132362✓')
+	    psb('WhatsApp Num 03017975818✓')
 	    psb('WellCome To Itx Itxoo')
 	    psb('Congratulations Itxoo Tool Has Been Updated Successfully')
-	    psb('🔓User Name☆ ItxItxoo✓')
+	    psb('🔓User Name ☆ ItxItxoo✓')
 	    psb('🔓Password ☆ 1213✓')
 	    psb('Follow me on Facebook https://www.facebook.com/asmad.ali.7923030✓')
 	    psb('Please Login Again')
